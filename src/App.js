@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
 import Shop from './components/Shop';
 
@@ -11,8 +12,11 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Route path="/about" component={About} />
-        <Route path="/shop" component={Shop} />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/shop" component={Shop} />
+        </Switch>
       </div>
     </Router>
   );
