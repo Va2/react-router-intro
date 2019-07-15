@@ -7,11 +7,9 @@ import Shop from './components/Shop';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Nav />
-      </div>
-    </Router>
+		<div className="App">
+			<Nav />
+		</div>
   );
 }
 
