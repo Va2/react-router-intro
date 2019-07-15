@@ -1,3 +1,30 @@
+# ReactJS Router intro
+React-router introduction project.
+
+
+![Alt](https://github.com/Va2/react-router-intro/blob/master/screenshot.png)
+
+## Getting Started
+
+Clone this repository on your local machine.
+```
+git clone https://github.com/Va2/react-todo-list.git
+cd react-clock
+```
+Run the following commands into the project folder to install project dependencies.
+```
+npm install
+```
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Built With
+
+* [ReactJS](https://reactjs.org/)
+
+## Author(s)
+
+* **Vadim Brieven** - *Junior Web Developer* - [GitHub account](https://github.com/Va2)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
