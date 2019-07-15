@@ -2,7 +2,7 @@
 React-router introduction project.
 
 
-![Alt](https://github.com/Va2/react-router-intro/blob/master/screenshot.png)
+![Alt](https://github.com/Va2/react-router-intro/blob/master/screenshot.gif)
 
 ## Getting Started
 
