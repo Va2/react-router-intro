@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Nav extends Component {
     render() {
@@ -21,21 +22,27 @@ class Nav extends Component {
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                      Home <span class="sr-only">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      Link
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">
-                      Disabled
-                    </a>
-                  </li>
+                  <Link to='/' >
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">
+                        Home <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to='/about'>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        About
+                      </a>
+                    </li>
+                  </Link>
+                  <Link to='/shop'>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Shop
+                      </a>
+                    </li>
+                  </Link>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
                   <input
