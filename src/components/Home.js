@@ -6,22 +6,22 @@ class Home extends Component {
           <main role="main">
             <div
               id="myCarousel"
-              class="carousel slide"
+              className="carousel slide"
               data-ride="carousel"
             >
-              <ol class="carousel-indicators">
+              <ol className="carousel-indicators">
                 <li
                   data-target="#myCarousel"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 />
                 <li data-target="#myCarousel" data-slide-to="1" />
                 <li data-target="#myCarousel" data-slide-to="2" />
               </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
                   <svg
-                    class="bd-placeholder-img"
+                    className="bd-placeholder-img"
                     width="100%"
                     height="100%"
                     xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +31,8 @@ class Home extends Component {
                   >
                     <rect width="100%" height="100%" fill="#777" />
                   </svg>
-                  <div class="container">
-                    <div class="carousel-caption text-left">
+                  <div className="container">
+                    <div className="carousel-caption text-left">
                       <h1>Example headline.</h1>
                       <p>
                         Cras justo odio, dapibus ac facilisis in,
@@ -42,7 +42,7 @@ class Home extends Component {
                       </p>
                       <p>
                         <a
-                          class="btn btn-lg btn-primary"
+                          className="btn btn-lg btn-primary"
                           href="#"
                           role="button"
                         >
@@ -52,9 +52,9 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <svg
-                    class="bd-placeholder-img"
+                    className="bd-placeholder-img"
                     width="100%"
                     height="100%"
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@ class Home extends Component {
                   >
                     <rect width="100%" height="100%" fill="#777" />
                   </svg>
-                  <div class="container">
-                    <div class="carousel-caption">
+                  <div className="container">
+                    <div className="carousel-caption">
                       <h1>Another example headline.</h1>
                       <p>
                         Cras justo odio, dapibus ac facilisis in,
@@ -75,7 +75,7 @@ class Home extends Component {
                       </p>
                       <p>
                         <a
-                          class="btn btn-lg btn-primary"
+                          className="btn btn-lg btn-primary"
                           href="#"
                           role="button"
                         >
@@ -85,9 +85,9 @@ class Home extends Component {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <svg
-                    class="bd-placeholder-img"
+                    className="bd-placeholder-img"
                     width="100%"
                     height="100%"
                     xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +97,8 @@ class Home extends Component {
                   >
                     <rect width="100%" height="100%" fill="#777" />
                   </svg>
-                  <div class="container">
-                    <div class="carousel-caption text-right">
+                  <div className="container">
+                    <div className="carousel-caption text-right">
                       <h1>One more for good measure.</h1>
                       <p>
                         Cras justo odio, dapibus ac facilisis in,
@@ -108,7 +108,7 @@ class Home extends Component {
                       </p>
                       <p>
                         <a
-                          class="btn btn-lg btn-primary"
+                          className="btn btn-lg btn-primary"
                           href="#"
                           role="button"
                         >
@@ -120,28 +120,28 @@ class Home extends Component {
                 </div>
               </div>
               <a
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 href="#myCarousel"
                 role="button"
                 data-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon"
+                  className="carousel-control-prev-icon"
                   aria-hidden="true"
                 />
-                <span class="sr-only">Previous</span>
+                <span className="sr-only">Previous</span>
               </a>
               <a
-                class="carousel-control-next"
+                className="carousel-control-next"
                 href="#myCarousel"
                 role="button"
                 data-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon"
+                  className="carousel-control-next-icon"
                   aria-hidden="true"
                 />
-                <span class="sr-only">Next</span>
+                <span className="sr-only">Next</span>
               </a>
             </div>
 
@@ -149,12 +149,12 @@ class Home extends Component {
 				================================================== -->
 				<!-- Wrap the rest of the page in another container to center all the content. --> */}
 
-            <div class="container marketing">
+            <div className="container marketing">
               {/* <!-- Three columns of text below the carousel --> */}
-              <div class="row">
-                <div class="col-lg-4">
+              <div className="row">
+                <div className="col-lg-4">
                   <svg
-                    class="bd-placeholder-img rounded-circle"
+                    className="bd-placeholder-img rounded-circle"
                     width="140"
                     height="140"
                     xmlns="http://www.w3.org/2000/svg"
@@ -178,15 +178,15 @@ class Home extends Component {
                     cursus magna.
                   </p>
                   <p>
-                    <a class="btn btn-secondary" href="#" role="button">
+                    <a className="btn btn-secondary" href="#" role="button">
                       View details &raquo;
                     </a>
                   </p>
                 </div>
                 {/* <!-- /.col-lg-4 --> */}
-                <div class="col-lg-4">
+                <div className="col-lg-4">
                   <svg
-                    class="bd-placeholder-img rounded-circle"
+                    className="bd-placeholder-img rounded-circle"
                     width="140"
                     height="140"
                     xmlns="http://www.w3.org/2000/svg"
@@ -210,15 +210,15 @@ class Home extends Component {
                     mauris condimentum nibh.
                   </p>
                   <p>
-                    <a class="btn btn-secondary" href="#" role="button">
+                    <a className="btn btn-secondary" href="#" role="button">
                       View details &raquo;
                     </a>
                   </p>
                 </div>
                 {/* <!-- /.col-lg-4 --> */}
-                <div class="col-lg-4">
+                <div className="col-lg-4">
                   <svg
-                    class="bd-placeholder-img rounded-circle"
+                    className="bd-placeholder-img rounded-circle"
                     width="140"
                     height="140"
                     xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ class Home extends Component {
                     nibh, ut fermentum massa justo sit amet risus.
                   </p>
                   <p>
-                    <a class="btn btn-secondary" href="#" role="button">
+                    <a className="btn btn-secondary" href="#" role="button">
                       View details &raquo;
                     </a>
                   </p>
@@ -253,17 +253,17 @@ class Home extends Component {
 
               {/* <!-- START THE FEATURETTES --> */}
 
-              <hr class="featurette-divider" />
+              <hr className="featurette-divider" />
 
-              <div class="row featurette">
-                <div class="col-md-7">
-                  <h2 class="featurette-heading">
+              <div className="row featurette">
+                <div className="col-md-7">
+                  <h2 className="featurette-heading">
                     First featurette heading.{" "}
-                    <span class="text-muted">
+                    <span className="text-muted">
                       It’ll blow your mind.
                     </span>
                   </h2>
-                  <p class="lead">
+                  <p className="lead">
                     Donec ullamcorper nulla non metus auctor fringilla.
                     Vestibulum id ligula porta felis euismod semper.
                     Praesent commodo cursus magna, vel scelerisque nisl
@@ -271,9 +271,9 @@ class Home extends Component {
                     commodo.
                   </p>
                 </div>
-                <div class="col-md-5">
+                <div className="col-md-5">
                   <svg
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                    className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     width="500"
                     height="500"
                     xmlns="http://www.w3.org/2000/svg"
@@ -291,15 +291,15 @@ class Home extends Component {
                 </div>
               </div>
 
-              <hr class="featurette-divider" />
+              <hr className="featurette-divider" />
 
-              <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                  <h2 class="featurette-heading">
+              <div className="row featurette">
+                <div className="col-md-7 order-md-2">
+                  <h2 className="featurette-heading">
                     Oh yeah, it’s that good.{" "}
-                    <span class="text-muted">See for yourself.</span>
+                    <span className="text-muted">See for yourself.</span>
                   </h2>
-                  <p class="lead">
+                  <p className="lead">
                     Donec ullamcorper nulla non metus auctor fringilla.
                     Vestibulum id ligula porta felis euismod semper.
                     Praesent commodo cursus magna, vel scelerisque nisl
@@ -307,9 +307,9 @@ class Home extends Component {
                     commodo.
                   </p>
                 </div>
-                <div class="col-md-5 order-md-1">
+                <div className="col-md-5 order-md-1">
                   <svg
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                    className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     width="500"
                     height="500"
                     xmlns="http://www.w3.org/2000/svg"
@@ -327,15 +327,15 @@ class Home extends Component {
                 </div>
               </div>
 
-              <hr class="featurette-divider" />
+              <hr className="featurette-divider" />
 
-              <div class="row featurette">
-                <div class="col-md-7">
-                  <h2 class="featurette-heading">
+              <div className="row featurette">
+                <div className="col-md-7">
+                  <h2 className="featurette-heading">
                     And lastly, this one.{" "}
-                    <span class="text-muted">Checkmate.</span>
+                    <span className="text-muted">Checkmate.</span>
                   </h2>
-                  <p class="lead">
+                  <p className="lead">
                     Donec ullamcorper nulla non metus auctor fringilla.
                     Vestibulum id ligula porta felis euismod semper.
                     Praesent commodo cursus magna, vel scelerisque nisl
@@ -343,9 +343,9 @@ class Home extends Component {
                     commodo.
                   </p>
                 </div>
-                <div class="col-md-5">
+                <div className="col-md-5">
                   <svg
-                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                    className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     width="500"
                     height="500"
                     xmlns="http://www.w3.org/2000/svg"
@@ -363,15 +363,15 @@ class Home extends Component {
                 </div>
               </div>
 
-              <hr class="featurette-divider" />
+              <hr className="featurette-divider" />
 
               {/* <!-- /END THE FEATURETTES --> */}
             </div>
             {/* <!-- /.container --> */}
 
             {/* <!-- FOOTER --> */}
-            <footer class="container">
-              <p class="float-right">
+            <footer className="container">
+              <p className="float-right">
                 <a href="#">Back to top</a>
               </p>
               <p>

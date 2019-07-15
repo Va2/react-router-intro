@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-class Shop extends Component {
-    render() {
-        return <h1>Shop Page</h1>;
-    }
+function Shop() {
+    return <h1>Shop Page</h1>;
 }
 
 export default  Shop;
