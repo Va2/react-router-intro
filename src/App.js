@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 import Nav from './components/Nav';
@@ -7,9 +8,12 @@ import Shop from './components/Shop';
 
 function App() {
   return (
-		<div className="App">
-			<Nav />
-		</div>
+    <Router>
+      <div className="App">
+        <Nav />
+				<Route path="/about" component={About} />
+      </div>
+    </Router>
   );
 }
 
